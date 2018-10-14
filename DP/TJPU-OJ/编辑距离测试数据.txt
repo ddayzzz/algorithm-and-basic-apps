@@ -1,0 +1,21 @@
+WQDSHJDKWQNDKJDFNJKDFHJNFJSKDHSAJDASKDSAF
+AFASBHJSABFFBJHFJKASHDJKSADNBASJK
+
+ABCCBFD
+A
+
+ABDF
+ABCDE
+
+ABDSFASD
+DDSWD
+         D   D  S  W  D
+    0   1   2   3  4   5
+A  1   1   2   3  4  5
+B  2   2   2   3  4  5
+D  3   2   2   3  4  4
+S  4   3   3   2   3  4
+F  5   4   4   3   3  4
+A 6   5    5   4   4  4
+S  7  6    6   5   5  5
+D 8   7   6   6   6   5
