@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Algorithms_In_CSharp.Context.BTree.BTree&lt;TKey, TValue&gt;">
+    <Position X="3.5" Y="0.5" Width="4" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Algorithms_In_CSharp.Context.BTree.BTree&lt;TKey, TValue&gt;.Node">
+        <TypeIdentifier>
+          <NewMemberFileName>Context\BTree\BTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Algorithms_In_CSharp.Context.BTree.BTree&lt;TKey, TValue&gt;.Entry">
+        <TypeIdentifier>
+          <NewMemberFileName>Context\BTree\BTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAABAAAgABFAAAAAAAAAAAAAAAQEAABAAIwAAg=</HashCode>
+      <FileName>Context\BTree\BTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Algorithms_In_CSharp.Context.BTree.BTreeTest" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Context\BTree\BTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Algorithms_In_CSharp.Context.BTree.BTreeIP" Collapsed="true">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Context\BTree\BTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
