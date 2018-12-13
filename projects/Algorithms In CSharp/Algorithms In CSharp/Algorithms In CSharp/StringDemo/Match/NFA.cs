@@ -294,6 +294,7 @@ namespace Algorithms_In_CSharp.StringDemo.Match
         }
         public static void Main(string[] args)
         {
+            // 可用参数:((00|11)|(01|10)(00|11)*(10|01))*
             //string regexp = "(.*" + args[0] + ".*)";
             string regexp = args[0];
             NFA nfa = new NFA(regexp, NFAType.AppearAtOnce);

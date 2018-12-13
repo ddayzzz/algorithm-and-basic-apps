@@ -57,5 +57,6 @@
         "xmemory": "cpp",
         "xmemory0": "cpp",
         "xtr1common": "cpp"
-    }
+    },
+    "python.pythonPath": "C:\\Users\\Shu\\Miniconda3\\envs\\ml\\python.exe"
 }

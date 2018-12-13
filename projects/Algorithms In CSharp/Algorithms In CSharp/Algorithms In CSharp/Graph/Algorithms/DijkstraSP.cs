@@ -80,6 +80,8 @@ namespace Algorithms_In_CSharp.Graph.Algorithms
         public static void Main()
         {
             System.IO.TextReader s = System.IO.File.OpenText("tinyEWDAG.txt");
+            //System.IO.TextReader s = System.IO.File.OpenText("mediumEWD.txt");
+            //System.IO.TextReader s = System.IO.File.OpenText("tinyEWDAG.txt");
             DirectedWeightedGraph graph = new DirectedWeightedGraph(s);
             Console.Write("请输入起点：");
             int st = int.Parse(Console.ReadLine());

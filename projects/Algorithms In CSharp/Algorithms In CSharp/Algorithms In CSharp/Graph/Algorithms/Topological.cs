@@ -19,6 +19,11 @@ namespace Algorithms_In_CSharp.Graph.Algorithms
                 DepthFirstOrder dfs = new DepthFirstOrder(g);
                 order = dfs.ReversePost();
             }
+            else
+            {
+                // 
+                throw new ArgumentException("不是 DAG!");
+            }
         }
         public IEnumerable<int> Order() => order;
         public bool IsDAG() => order != null;

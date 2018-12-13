@@ -26,8 +26,12 @@ namespace Algorithms_In_CSharp.Graph.Algorithms
             {
                 distTo[v] = Double.PositiveInfinity;
             }
+            distTo[s] = 0.0;
             Topological top = new Topological(g);
-
+            foreach(int v in top.Order())
+            {
+                this.Relax(g, v);
+            }
         }
 
         public Double DistTo(Int32 v)
@@ -69,11 +73,12 @@ namespace Algorithms_In_CSharp.Graph.Algorithms
 
         public static void Main()
         {
-            System.IO.TextReader s = System.IO.File.OpenText("mediumEWD.txt");
+            //System.IO.TextReader s = System.IO.File.OpenText("mediumEWD.txt");
+            System.IO.TextReader s = System.IO.File.OpenText("tinyEWDAG.txt");
             DirectedWeightedGraph graph = new DirectedWeightedGraph(s);
             Console.Write("请输入起点：");
             int st = int.Parse(Console.ReadLine());
-            DijkstraSP dijkstraSP = new DijkstraSP(graph, st);
+            AcyclicSP sp = new AcyclicSP(graph, st);
             for (int i = 0; i < graph.V; ++i)
             {
                 if (i == st)
@@ -81,13 +86,13 @@ namespace Algorithms_In_CSharp.Graph.Algorithms
                     Console.WriteLine("{0}->{0} : 0.0", st);
                     continue;
                 }
-                if (!dijkstraSP.HasPathTo(i))
+                if (!sp.HasPathTo(i))
                 {
                     Console.WriteLine("{0}->{1} : No paths", st, i);
                     continue;
                 }
                 Double len = 0.0;
-                foreach (var edge in dijkstraSP.PathTo(i))
+                foreach (var edge in sp.PathTo(i))
                 {
                     Console.Write(edge);
                     Console.Write(",");

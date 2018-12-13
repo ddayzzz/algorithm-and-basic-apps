@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Algorithms_In_CSharp.StringDemo.Match.NFA</StartupObject>
+    <StartupObject>Algorithms_In_CSharp.Graph.Algorithms.DijkstraSP</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CodeTime">
@@ -71,6 +71,7 @@
     <Compile Include="Graph\Algorithms\KosarajuSCC.cs" />
     <Compile Include="Graph\Algorithms\KruskalMST.cs" />
     <Compile Include="Graph\Algorithms\PrimMST.cs" />
+    <Compile Include="Graph\Algorithms\SPCompare.cs" />
     <Compile Include="Graph\Algorithms\TarjanSCC.cs" />
     <Compile Include="Graph\Algorithms\Topological.cs" />
     <Compile Include="Graph\Algorithms\CC.cs" />
