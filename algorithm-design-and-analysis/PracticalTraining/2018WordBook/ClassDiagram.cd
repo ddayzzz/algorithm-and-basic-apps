@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Vocabulary">
+    <Position X="10.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY=</HashCode>
+      <FileName>base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Word">
+    <Position X="7.25" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>base.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

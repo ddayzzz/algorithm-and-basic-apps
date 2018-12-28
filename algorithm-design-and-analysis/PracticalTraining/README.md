@@ -1,0 +1,2 @@
+# End-term Practical Training
+This is an assignment of practical training of Algorithm Design & Analysis in this semester(2018-2019-1). For more information, pleaese refer to the guidance [计算机算法综合实验指导手册.pdf](计算机算法综合实验指导手册.pdf)
