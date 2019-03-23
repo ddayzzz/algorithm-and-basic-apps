@@ -36,7 +36,7 @@ int main()
 		if (num < aid.size()) {
 			break;//若num还是小于题目的个数 表示e已经到达终点了 所以退出 mix就是最小的值 
 		}
-		mix = min(mix, e - start);//注意 不是e-start 因为whille退出 就需要不需要+1. 进行到这儿表示已经找到了阅读所有的长度 就是需要更新最小值  ++starts 
+		mix = min(mix, e - start);//注意 不是e-start 因为while退出 就需要不需要+1. 进行到这儿表示已经找到了阅读所有的长度 就是需要更新最小值  ++starts 
 		if (--se[P[start++]] == 0)//如果是最后的一个知识点 那么已经进过的题号数量-1 
 		{
 			--num;
